@@ -13,6 +13,20 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      animation: {
+        shimmer: "shimmer 2s infinite ease-in-out",
+      },
+      keyframes: {
+        shimmer: {
+          "0%": { "background-position": "0% 50%" },
+          "50%": { "background-position": "100% 50%" },
+          "100%": { "background-position": "0% 50%" },
+        },
+      },
+      backgroundSize: {
+        // Make sure the gradient is large enough to animate
+        '200': '200% 200%',
+      },
     },
     screens: {
       xs: "480px",

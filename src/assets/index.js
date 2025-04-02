@@ -24,6 +24,8 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import vanilla from "./vanilla.png";
+import Invest from "./Invest.png";
+import Crop from "./crop.jpg";
 
 export {
   airbnb,
@@ -52,4 +54,6 @@ export {
   people02,
   people03,
   vanilla,
+  Invest,
+  Crop,
 };
