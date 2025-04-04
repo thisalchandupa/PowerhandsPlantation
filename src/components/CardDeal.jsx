@@ -1,6 +1,7 @@
 import { card, Invest } from "../assets";
 import styles, { layout } from "../style";
-import InvestmentCalculator from "./calc"; // Import the calculator component
+import InvestmentCalculator from "./calc";
+ // Import the calculator component
 import { useState } from "react";
 
 const CardDeal = () => {

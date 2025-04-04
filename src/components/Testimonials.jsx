@@ -35,7 +35,7 @@ const Testimonials = () => (
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Build your{" "}
-          <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-200 to-pink-300 bg-[200%_200%] animate-shimmer">
+          <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-200 to-pink-300 bg-[length:200%_200%] animate-shimmer">
             Legacy
           </span>{" "}
           today.<br />invest wisely, prosper forever!
