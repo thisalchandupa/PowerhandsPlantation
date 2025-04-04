@@ -1,7 +1,7 @@
 import { feedback } from "../constants";
 import styles, { layout } from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { Invest } from "../assets";
+import { newInvest, Invest } from "../assets";
 import Button from "./Button";
 
 const Testimonials = () => (
@@ -27,7 +27,7 @@ const Testimonials = () => (
       </div>
 
       <div className={layout.sectionImg}>
-        <img src={Invest} alt="investment" className="w-[100%] h-[100%]" />
+        <img src={newInvest} alt="investment" className="w-[100%] h-[100%]" />
       </div>
     </div>
 

@@ -27,6 +27,7 @@ import vanilla from "./vanilla.png";
 import Invest from "./Invest.png";
 import Crop from "./crop.jpg";
 import NewLogo from "./logoNew.png";
+import newInvest from "./Invest2.png";
 
 export {
   airbnb,
@@ -58,4 +59,5 @@ export {
   Invest,
   Crop,
   NewLogo,
+  newInvest,
 };
