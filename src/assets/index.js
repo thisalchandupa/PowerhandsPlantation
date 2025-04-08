@@ -28,6 +28,11 @@ import Invest from "./Invest.png";
 import Crop from "./crop.jpg";
 import NewLogo from "./logoNew.png";
 import newInvest from "./Invest2.png";
+import v1 from "./v1.jpeg";
+import v2 from "./v2.jpeg";
+import v3 from "./v3.jpeg";
+import v4 from "./v4.jpeg";
+import v5 from "./v5.jpeg";
 
 export {
   airbnb,
@@ -60,4 +65,9 @@ export {
   Crop,
   NewLogo,
   newInvest,
+  v1,
+  v2,
+  v3,
+  v4,
+  v5,
 };

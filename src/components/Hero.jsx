@@ -14,20 +14,28 @@ const Hero = () => {
           </p>
         </div> */}
 
-        <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Invest in <br className="sm:block hidden" />{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">Vanilla</span>{" "}
+        <div className="flex flex-col sm:flex-row justify-between items-center w-full">
+          <h1 className="font-poppins font-semibold text-[52px] sm:text-[68px] leading-[65px] sm:leading-[85px] text-white text-center sm:text-left w-full">
+            Invest in{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+              Vanilla
+            </span>{" "}
+            <br />
+            For Success.
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+
+
+          <div className="mt-6 sm:mt-0 sm:flex hidden md:mr-4 mr-0">
             {/* <GetStarted /> */}
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+        {/* <h1 className="font-poppins font-semibold text-[52px] sm:text-[68px] leading-[75px] sm:leading-[100.8px] text-white w-full text-center sm:text-left mt-4">
           For Success.
-        </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        </h1> */}
+
+
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-center sm:text-left`}>
           Power Hands Plantation (PVT) Ltd. was founded with the mission of creating a greener
           future by offering eco-friendly investment opportunities in Sri Lanka.
           Our vision is to enhance the country’s trading and export sectors while promoting
